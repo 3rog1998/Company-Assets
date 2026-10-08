@@ -1,0 +1,20 @@
+{
+  "name": "marwa-custody",
+  "version": "1.0.0",
+  "private": true,
+  "description": "نظام إدارة عهد الشركة (تسليم وإرجاع) - مصنع مروى للمياه الصحية",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning server.js",
+    "dev": "node --no-warnings=ExperimentalWarning --watch server.js",
+    "set-user": "node --no-warnings=ExperimentalWarning scripts/set-user.js"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "express": "5.1.0",
+    "multer": "2.4.0"
+  }
+}
